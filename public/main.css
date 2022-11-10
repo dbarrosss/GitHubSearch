@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&family=Roboto&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+body {
+  background-color: white;
+}
+
+header {
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+h1 {
+  margin-left: 6%;
+  font-family: poppins;
+  color: #124aa5;
+  font-weight: 700;
+  font-size: 1.5rem;
+  display: inline;
+}
+
+form {
+  margin-left: 2.5rem;
+  display: inline;
+}
+
+input {
+  width: 30%;
+  padding: 0.5rem;
+  border-radius: 30rem;
+  background-color: rgba(232, 241, 242, 0.5);
+  border: 1px solid rgba(232, 241, 242, 0.5);
+  font-family: roboto;
+  font-weight: bold;
+  outline: none;
+  font-size: 1rem;
+}
+
+.divresults {
+  margin-top: 5%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  grid-template-columns: 1fr 1fr;
+  color: white;
+}
+
+.box {
+  height: 5rem;
+  flex-basis: 33rem;
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  background-color: rgba(232, 241, 242, 0.7);
+  font-family: poppins;
+  font-weight: bold;
+  color: black;
+  text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.description {
+  font-family: roboto;
+  font-size: 15px;
+  text-transform: capitalize;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.stars {
+  margin-top: 1rem;
+  display: inline-flex;
+}
+
+.language {
+  margin-left: 1rem;
+  display: inline-flex;
+}
+
+.forks {
+  margin-left: 1rem;
+  display: inline-flex;
+}
+
+.owner {
+  float: right;
+  margin-top: 1rem;
+}
+
+.divinformation {
+  font-family: poppins;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #124aa5;
+}
+
+@media (max-width: 600px) {
+  .div {
+    width: 70%;
+  }
+
+  input::placeholder {
+    font-size: 0.7rem;
+  }
+}
